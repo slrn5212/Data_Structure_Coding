@@ -8,14 +8,12 @@ using namespace std;
 
 
 int main() {
-	int n = 10000;
-	int* arr = SortTestHelper::generateNearlyOrderArray(n, 10);
+	int n = 50000;
+	int* arr = SortTestHelper::generateRandomArray(n, 0, n);
 	int *arr2 = SortTestHelper::copyIntArray(arr, n);
-	//selectionSort(arr, n);
-	//SortTestHelper::printArray(arr, n);
-	SortTestHelper::testSort("Selection Sort", selectionSort, arr, n);
-	SortTestHelper::testSort("Advanced Insertion Sort", AdvancedInsertionSort, arr2, n);
 
+	SortTestHelper::testSort("Binary Insertion Sort", OptimizemergeSortBottonToUp, arr, n);
+	SortTestHelper::testSort("Merge Sort", mergeSort, arr2, n);
 
 	delete[] arr;
 	delete[] arr2;
