@@ -24,9 +24,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="linklist_main.cpp">
-      <Filter>Source Files\Linklist</Filter>
-    </ClCompile>
     <ClCompile Include="main.cpp">
       <Filter>Source Files\Sorting</Filter>
     </ClCompile>
