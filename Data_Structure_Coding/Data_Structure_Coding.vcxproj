@@ -116,9 +116,17 @@
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="BinaryTree.h" />
+    <ClInclude Include="FileOps.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="SearchMethod.h" />
+    <ClInclude Include="SequencesST.h" />
     <ClInclude Include="SortItem.h" />
     <ClInclude Include="SortMethod.h" />
     <ClInclude Include="SortTestHelp.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Data_Structure_Coding.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

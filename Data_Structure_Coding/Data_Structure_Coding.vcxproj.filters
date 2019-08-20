@@ -22,6 +22,12 @@
     <Filter Include="Header Files\Sort">
       <UniqueIdentifier>{0f42dfe7-1b23-4340-b672-6f7221b9c4b5}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\Search">
+      <UniqueIdentifier>{41d72110-6815-42af-8bc5-2fc6773199d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Others">
+      <UniqueIdentifier>{dd771af1-70fa-40c2-8740-464bc55caa70}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -38,5 +44,25 @@
     <ClInclude Include="SortItem.h">
       <Filter>Header Files\Sort</Filter>
     </ClInclude>
+    <ClInclude Include="SearchMethod.h">
+      <Filter>Header Files\Search</Filter>
+    </ClInclude>
+    <ClInclude Include="BinaryTree.h">
+      <Filter>Header Files\Search</Filter>
+    </ClInclude>
+    <ClInclude Include="FileOps.h">
+      <Filter>Header Files\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="SequencesST.h">
+      <Filter>Header Files\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Data_Structure_Coding.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
   </ItemGroup>
 </Project>
